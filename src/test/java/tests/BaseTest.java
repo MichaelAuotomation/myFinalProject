@@ -5,15 +5,14 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
-import pajeObjects.LoginPage;
-import pajeObjects.Menu;
-import pajeObjects.ProductsPage;
+import pageObjects.LoginPage;
+import pageObjects.Menu;
+import pageObjects.ProductsPage;
 import utils.Configuration;
 import utils.Utils;
 

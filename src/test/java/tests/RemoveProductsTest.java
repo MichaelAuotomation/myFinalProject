@@ -2,9 +2,9 @@ package tests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pajeObjects.ProductPage;
-import pajeObjects.ProductsPage;
-import pajeObjects.YourCartPage;
+import pageObjects.ProductPage;
+import pageObjects.ProductsPage;
+import pageObjects.YourCartPage;
 import utils.Configuration;
 
 public class RemoveProductsTest extends BaseTest{

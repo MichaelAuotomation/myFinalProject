@@ -2,8 +2,8 @@ package tests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pajeObjects.LoginPage;
-import pajeObjects.ProductsPage;
+import pageObjects.LoginPage;
+import pageObjects.ProductsPage;
 import utils.Configuration;
 
 public class LoginTest extends BaseTest {

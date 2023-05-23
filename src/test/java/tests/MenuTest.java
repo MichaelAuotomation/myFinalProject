@@ -2,8 +2,8 @@ package tests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pajeObjects.Menu;
-import pajeObjects.ProductsPage;
+import pageObjects.Menu;
+import pageObjects.ProductsPage;
 
 public class MenuTest extends BaseTest {
     private final long fourSeconds = 4000;

@@ -3,7 +3,7 @@ package tests;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import pajeObjects.LoginPage;
+import pageObjects.LoginPage;
 import utils.Configuration;
 
 public class LoginFailedTestsWithDDT extends  BaseTest{

@@ -2,7 +2,7 @@ package tests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pajeObjects.*;
+import pageObjects.*;
 import utils.Configuration;
 
 public class AllProductsTest extends BaseTest{
